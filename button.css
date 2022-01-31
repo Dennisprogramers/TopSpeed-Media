@@ -1,0 +1,124 @@
+body{
+	 font-family: consolas;
+	 display: flex;
+	 height: 100vh;
+	 margin: 0;
+	 padding: 0;
+	 background: #1a0321;
+	 align-content: center;
+	 justify-content: center;
+	 align-items: center;
+
+
+}
+.bnt-neon{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #FFF;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.bnt-neon:hover{
+	background: #00ff00;
+	box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
+
+}
+
+.bnt-neon span{
+	position: absolute;
+	display: block;
+
+}
+
+#span1{
+	top: 0;
+	left: -100%;
+	height: 2px;
+	width: 100%;
+	background: linear-gradient(90deg,transparent, purple);
+
+
+}
+bnt-neon:hover #span{
+	left: 100%;
+	transition: 1s;
+}
+.telegram-button{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #FFF;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.telegram-button:hover{
+	background: #189be7;
+	box-shadow: 0 0 10px #189be7, 0 0 40px #189be7, 0 0 80px #189be7;
+
+}
+
+.bnt-neon span{
+	position: absolute;
+	display: block;
+
+}
+
+#span1{
+	top: 0;
+	left: -100%;
+	height: 2px;
+	width: 100%;
+	background: linear-gradient(90deg,transparent, purple);
+
+
+}
+bnt-neon:hover #span{
+	left: 100%;
+	transition: 1s;
+}
+.faceboock-button{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #FFF;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.faceboock-button:hover{
+	background: #2052df;
+	box-shadow: 0 0 10px #2052df, 0 0 40px #2052df, 0 0 80px #2052df;
+
+}
+
+.bnt-neon span{
+	position: absolute;
+	display: block;
+
+}
+
+#span1{
+	top: 0;
+	left: -100%;
+	height: 2px;
+	width: 100%;
+	background: linear-gradient(90deg,transparent, purple);
+
+
+}
+bnt-neon:hover #span{
+	left: 100%;
+	transition: 1s;
+}
